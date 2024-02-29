@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+
+    <h2>Simple Calculator</h2>
+
+    <label for="number1">Enter Number 1:</label>
+    <input type="text" id="number1" placeholder="Enter number 1">
+
+    <label for="operator">Choose Operator:</label>
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+
+    <label for="number2">Enter Number 2:</label>
+    <input type="text" id="number2" placeholder="Enter number 2">
+
+    <br>
+
+    <button onclick="startCalculator()">Calculate</button>
+
+    <p id="result">Result will be displayed here</p>
+
+    <script src="saba.js">
+    </script>
+
+</body>
+
+</html>
